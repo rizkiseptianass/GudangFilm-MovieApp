@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+     
+    <title>GudangFilm</title>
+  </head>
+  <body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">GudangFilm</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#NewRelease">New Release</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#trending">Trending</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Section Search -->
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control input-keyword" placeholder="Search any movies">
+            <button class="btn btn-dark buttonSearch" type="button">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Search -->
+
+    <div class="container">
+      <div class="row movie-container g-4">
+
+      </div>
+    </div>
+
+    <!-- Section Trending -->
+    <div id="NewRelease">
+      <div class="container">
+        <div class="row mt-3 mb-4 g-4">
+          <h2 class="mb-4">New Release</h2>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/endgame.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Avengers Endgame</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                <p class="card-text small">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/kongvgodzilla.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Godzilla vs Kong</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2021</h6>
+                <p class="card-text small">The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against each other--the fearsome Godzilla and the mighty Kong--with humanity caught in the balance.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/joker.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Joker</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                <p class="card-text small">A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/starwars.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Starwars : The Last Jedi</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2017</h6>
+                <p class="card-text small">The Star Wars saga continues as new heroes and galactic legends go on an epic adventure, unlocking mysteries of the Force and shocking revelations of the past.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Trending -->
+
+    <!-- About Section -->
+    <div id="trending">
+      <div class="container">
+        <div class="row mt-3 mb-5 g-4">
+          <h2>Trending</h2>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/godzilla1.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Godzilla : King of The Monsters</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                <p class="card-text small">The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/WW3.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Wonder Woman 1984</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2020</h6>
+                <p class="card-text small">Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/thor.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Thor : Ragnarok</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2017</h6>
+                <p class="card-text small">Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/ironman.jpg" class="card-img-top img-fluid">
+              <div class="card-body">
+                <h5 class="card-title">Ironman</h5>
+                <h6 class="card-subtitle mb-2 text-muted">2008</h6>
+                <p class="card-text small">After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir About section -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- My Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
